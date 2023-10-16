@@ -1,0 +1,37 @@
+#userform-btns {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #role-select {
+    display: inline-block;
+    border: 1px solid #613A43;
+    background-color: white;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #32485C;
+    border-radius: 5px;
+  }
+
+  #role-label {
+    display: inline-block;
+  }
+
+  #user-form-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+
+  #user-form, #delete-dialog {
+    width: 40%;
+  }
+
+  #delete-dialog {
+    width: 40%;
+    background-color: #eee8e4;
+    color: #32485C;
+    border: 2px solid #613A43;
+  border-radius: 10px;
+  }
